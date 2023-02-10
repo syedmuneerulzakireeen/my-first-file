@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,300&display=swap" rel="stylesheet">
+<script>
+    tailwind.config={
+        theme:{
+            fontFamily: {
+                poppins: ['poppins',"san-sarif"]
+            }
+        }
+    }
+    <style type="text/tailwindcss">
+        @layer components {
+            .btn {
+            @layer components px-2 py-2
+
+            }
+        }
+</script>
+</head>
+<body class ="mx-40 font poppins">
+    <nav class="flex flex-row justify-between my-8>"
+    <nav> 
+        <div>
+            <h1 class="text-2xl font-semibold">SYED MUNEER</h1>
+        </div>
+            <div class="flex flex-row gap-6">
+                
+                <a>about me </a>
+                <a>cantact me </a>
+                <a>projects </a>
+            </div>
+    </nav>
+<main class="flex flex-row">
+    <div class="flex flex-col basis-2/3">
+        <i--left -->
+            <h1 class="font-bold text-5xl"> hello i'm syed muneer ,a web developer </h1>
+            <p>
+                i share everything
+            </p>
+            <div>
+                <button class="bg-blue-400 px-2 py-2 rounded-md btn text-white" href="https://www.netflix.com/">view linked in</button>
+                <button class="bg-gray-400 px-2 py-2 rounded-md btn text-black ">view github</button>
+            </div>
+    </div>
+    <div class="basis-1/3">
+        <i-- rigth-->
+            <img src="ube.jpg" class="w-72 hover: scale-110 transistion duration-100">
+    </div>
+</main>
+</body>
+</html>
